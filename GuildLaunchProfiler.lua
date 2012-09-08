@@ -356,8 +356,8 @@ local update_talents = function()
 	local loaded = LoadAddOn("Blizzard_TalentUI")
 	if loaded then
 		local talents = ""	
-		local numGroups = GetNumTalentGroups()
-		local numTabs = GetNumTalentTabs()
+		local numGroups = 0
+		local numTabs = 0
 
 		for k = 1, numGroups do	
 			GUILDLAUNCH_SVARS.talents[k] = {}					
@@ -571,8 +571,6 @@ local update_equipped_items = function()
 						"Trinket1Slot",
 						"MainHandSlot",
 						"SecondaryHandSlot",
-						"RangedSlot",
-						"AmmoSlot",
 						"Bag0Slot",
 						"Bag1Slot",
 						"Bag2Slot",
