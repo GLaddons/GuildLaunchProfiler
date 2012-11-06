@@ -1,7 +1,7 @@
 ## Interface: 50001
 ## Title: GuildLaunch Profiler
 ## Author: Stephen Johnston
-## Version: 01.04.00
+## Version: 01.05.00
 ## X-ExportVersion: 2.2
 ## Notes: Guild Launch Profiler
 ## SavedVariablesPerCharacter: GUILDLAUNCH_SVARS
